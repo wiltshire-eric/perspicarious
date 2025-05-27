@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 8080;
 
 // Serve static files (if you have any CSS, JS, images, etc.)
 app.use(express.static('public'));

@@ -1,0 +1,27 @@
+{
+  "name": "perspicarious-dictionary",
+  "version": "1.0.0",
+  "description": "Dictionary page for perspicarious.com",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "dictionary",
+    "perspicarious",
+    "express",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
